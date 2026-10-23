@@ -1,0 +1,20 @@
+# Huellas - Agente de ayuda para dueños de mascotas
+# Dependencias del notebook huellas_chat_gradio.ipynb
+# (En Google Colab se instalan con la primera celda del notebook)
+
+# Framework de agentes
+langchain
+langchain-classic
+langchain-core
+langchain-openai        # cliente compatible con OpenAI, usado para conectar con Groq
+
+# Memoria y recuperación semántica
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# Herramientas
+wikipedia
+
+# Interfaz de chat
+gradio
